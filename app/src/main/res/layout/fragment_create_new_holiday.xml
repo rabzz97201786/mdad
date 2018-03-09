@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rabiasultan.cwk1.CreateNewHolidayFragment"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="title of your holiday" />
+
+        <EditText
+            android:id="@+id/holiday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/holiday_title" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/save_new_holiday"
+        android:text="@string/button_save_holiday"
+        android:layout_width="match_parent"
+        android:layout_height="100px" />
+
+
+</LinearLayout>
+
+

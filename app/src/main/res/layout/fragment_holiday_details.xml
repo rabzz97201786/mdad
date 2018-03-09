@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rabiasultan.cwk1.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/holiday_title"
+        android:text="@string/holiday_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:text="@string/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_location"
+            android:text="@string/button_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/date_from"
+            android:text="@string/date_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_date_from"
+            android:text="@string/button_date_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/date_to"
+            android:text="@string/date_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button_date_to"
+            android:text="@string/button_date_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/textAreaScroller"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:layout_x="0px"
+        android:layout_y="25px"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/holiday_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="notes" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/companions"
+            android:text="@string/companions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/companion1"
+            android:text="@string/companion1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/companion2"
+            android:text="@string/companion2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/companion3"
+            android:text="@string/companion3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/companion4"
+            android:text="@string/companion4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ratings"
+            android:text="@string/ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/rating1"
+            android:text="@string/rating1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/rating2"
+            android:text="@string/rating2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/rating3"
+            android:text="@string/rating3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/rating4"
+            android:text="@string/rating4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/rating5"
+            android:text="@string/rating5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/add_place_visited_to_holiday"
+        android:text="@string/add_place_visited_to_holiday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/delete"
+            android:text="@string/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/share"
+            android:text="@string/button_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/save"
+            android:text="@string/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

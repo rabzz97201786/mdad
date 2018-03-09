@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Cwk1-editableData</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- My Gallery -->
+    <string name="gallery_title"> My Gallery </string>
+
+    <!-- My Journal -->
+    <string name="my_journal"> My Journal - all </string>
+
+    <!-- My Journal - Holidays  -->
+    <string name="my_journal_holidays"> My Journal - Holidays </string>
+
+    <!-- My Journal - Places Visited -->
+    <string name="my_journal_places_visited"> My Journal - Places Visited </string>
+
+    <!-- Take New Photo -->
+    <string name="take_photo"> Take new Photo </string>
+
+    <!-- Create New Holiday -->
+    <string name="create_new_holiday"> Create New Holiday </string>
+
+    <!-- Create New Place Visited -->
+    <string name="create_new_place_visited"> Create New Place Visited </string>
+
+    <!-- Places Nearby -->
+    <string name="places_nearby"> Places Nearby </string>
+
+    <!-- My Profile -->
+    <string name="my_profile"> My Profile </string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="page_name"> Viewing a holiday </string>
+
+    <string name="holiday_title"> the title of the holiday </string>
+
+    <string name="location_name"> the location  </string>
+    <string name="button_location"> enter a location </string>
+
+    <string name="date_from"> the from date </string>
+    <string name="button_date_from"> date </string>
+
+    <string name="date_to"> the to date </string>
+    <string name="button_date_to"> date </string>
+
+    <string name="holiday_notes"> notes </string>
+    <string name="companions"> My companions </string>
+    <string name="companion1"> 1 </string>
+    <string name="companion2"> 2 </string>
+    <string name="companion3"> 3 </string>
+    <string name="companion4"> 4 </string>
+    <string name="ratings"> the rating  </string>
+    <string name="rating1"> 1 </string>
+    <string name="rating2"> 2 </string>
+    <string name="rating3"> 3 </string>
+    <string name="rating4"> 4 </string>
+    <string name="rating5"> 5 </string>
+    <string name="add_place_visited_to_holiday" > Add a place visited to this holiday </string>
+    <string name="button_delete"> DELETE </string>
+    <string name="button_share"> SHARE </string>
+    <string name="button_save"> SAVE </string>
+
+
+
+    <string name="button_save_holiday"> SAVE </string>
+
+
+</resources>
